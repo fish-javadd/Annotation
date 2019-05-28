@@ -1,6 +1,7 @@
 package com.github.fish56.domain;
 
 import com.github.fish56.annotation.Entity;
+import com.github.fish56.annotation.EntityRuntime;
 import com.github.fish56.annotation.Id;
 import org.junit.Test;
 
@@ -15,7 +16,7 @@ public class SheepTest {
     @Test
     public void isPresent(){
         Class sheepClass = Sheep.class;
-        boolean isPresent = sheepClass.isAnnotationPresent(Entity.class);
+        boolean isPresent = sheepClass.isAnnotationPresent(EntityRuntime.class);
         System.out.println(isPresent);
         // true
     }

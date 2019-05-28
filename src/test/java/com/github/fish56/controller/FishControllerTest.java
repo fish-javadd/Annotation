@@ -9,6 +9,9 @@ import java.lang.reflect.Method;
 
 import static org.junit.Assert.*;
 
+/**
+ * 获得方法的参数具有的注解
+ */
 public class FishControllerTest {
 
     @Test

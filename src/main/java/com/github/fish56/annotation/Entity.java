@@ -9,7 +9,6 @@ import java.lang.annotation.Target;
  * 放在类上
  * 运行时不保留（这是默认规则）
  */
-@Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 public @interface Entity {
 }
